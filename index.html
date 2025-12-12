@@ -43,6 +43,74 @@
             padding: 10px;
         }
     </style>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f8f9fc;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 95%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 30px 0;
+        }
+
+        h2 {
+            font-size: 26px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: #fff;
+            border: 1px solid #e5e5e5;
+            padding: 20px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            font-size: 20px;
+        }
+
+        .subtitle {
+            color: #777;
+            font-size: 14px;
+        }
+
+        .tags span {
+            display: inline-block;
+            background: #f2f2f2;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 5px 5px 0 0;
+            font-size: 13px;
+        }
+
+        /* Highlighted Card (Australia) */
+        .highlight {
+            border: 2px solid #8cbcff;
+            background: #eef4ff;
+        }
+    </style>
 
     <link rel="shortcut icon" href="./images/globalindia-gie-logo.png">
 
@@ -110,7 +178,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-51973402-1');
     </script>
-    
+    <!-- Google tag (gtag.js) -->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-FBPTY3WPQC"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -220,13 +288,7 @@
                                         <a class="nav-link active" aria-current="page" href="about.html"></i>About_Us</a>
                                     </li>
 
-                                    <!-- <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown"
-                                            role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                                            data-bs-auto-close="outside">
-                                            about-us
-                                        </a> -->
-                                        
+                                    
                                     <li class="nav-item dropdown">
                                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -333,7 +395,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/career">Careers</a>
+                                        <a class="nav-link" href="https://courierchargesfor.com/destination/">Destinations</a>
 
                                     </li>
                                     <li class="nav-item">
@@ -390,21 +452,6 @@
             </ul>
         </div>
     </div>
-    <div class="sticky_left">
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/portfolio-slide.jpg" alt="Our-Portfolio">
-                </a>
-            </li>
-            <li>
-                <a href="#" class="buy_domain">
-                    <span>Buy Domain & Hosting</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-
 
     <!-- Banner section start -->
     <section class="homebanner index-two-banner">
@@ -869,52 +916,6 @@
         </div>
     </section>
 
-    <section class="api">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h5> Highlights</h5>
-                </div>
-                <div class="col-lg-1"></div>
-                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                    <div class="single-logo">
-                        <div class="image-shopfy">
-                            <img src="images/icons/free-pickup.png" alt="Amazon">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                    <div class="single-logo">
-                        <div class="image-shopfy">
-                            <img src="images/icons/google-rating.png" alt="Abebooks">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                    <div class="single-logo">
-                        <div class="image-shopfy">
-                            <img src="images/icons/iso-certified.png" alt="Biblio">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                    <div class="single-logo">
-                        <div class="image-shopfy">
-                            <img src="images/icons/fifteen-year.png" alt="Alibris">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-sm-4 col-6">
-                    <div class="single-logo">
-                        <div class="image-shopfy">
-                            <img src="images/icons/best-three-rated.png" alt="Walmart">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-        </div>
-    </section>
     <!-- product section start -->
 
     <section class="product index-two-product">
@@ -937,7 +938,7 @@
                             </h4>
                             <p>Manage parcel assignments, routes, and deliveries in real-time.</p>
                             <div class="readmore">
-                                <a href="/courier-management-software">Read More</a>
+                                <a href="/courier-management-software"></a>
                             </div>
                         </div>
                     </div>
@@ -954,7 +955,7 @@
                             </h4>
                             <p>Allow customers to schedule courier pickups at their preferred time.</p>
                             <div class="readmore">
-                                <a href="/international-courier-management-software">Read More</a>
+                                <a href="/international-courier-management-software"></a>
                             </div>
                         </div>
                     </div>
@@ -970,7 +971,7 @@
                             </h4>
                             <p>Track shipments with live GPS updates and delivery notifications.</p>
                             <div class="readmore">
-                                <a href="/logistics-management-software">Read More</a>
+                                <a href="/logistics-management-software"></a>
                             </div>
                         </div>
                     </div>
@@ -987,7 +988,7 @@
                             </h4>
                             <p>Collect digital signatures, QR scans, or photos upon delivery.</p>
                             <div class="readmore">
-                                <a href="/transportation-management-software">Read More</a>
+                                <a href="/transportation-management-software"></a>
                             </div>
                         </div>
                     </div>
@@ -1004,7 +1005,7 @@
                             </h4>
                             <p>Monitor vehicles, optimize routes, and manage fuel consumption.</p>
                             <div class="readmore">
-                                <a href="/ecommerce-delivery-management-software">Read More</a>
+                                <a href="/ecommerce-delivery-management-software"></a>
                             </div>
                         </div>
                     </div>
@@ -1021,7 +1022,7 @@
                             </h4>
                             <p>Empower delivery agents to manage assigned orders efficiently.</p>
                             <div class="readmore">
-                                <a href="/pickup-delivery-management-system">Read More</a>
+                                <a href="/pickup-delivery-management-system"></a>
                             </div>
                         </div>
                     </div>
@@ -1037,7 +1038,7 @@
                             </h4>
                             <p>Send automated SMS/email alerts for delivery updates.</p>
                             <div class="readmore">
-                                <a href="/real-time-proof-of-delivery">Read More</a>
+                                <a href="/real-time-proof-of-delivery"></a>
                             </div>
                         </div>
                     </div>
@@ -1053,7 +1054,7 @@
                             </h4>
                             <p>Automate parcel sorting, labeling, and warehouse stock updates.</p>
                             <div class="readmore">
-                                <a href="/courier-tracking-website">Read More</a>
+                                <a href="/courier-tracking-website"></a>
                             </div>
                         </div>
                     </div>
@@ -1252,7 +1253,7 @@
         </div>
     </section>
 
-    <section class="our-service">
+    <!-- <section class="our-service">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -1262,34 +1263,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
-                    <a href="https://gemini-project-wzyk.onrender.com/" target="_blank" class="service">
-                        <div class="service-img">
-                            <img src="images/Software-Development_1.webp" alt="Software Development" class="img-fluid">
-                        </div>
-                        <h5>Software Development</h5>
-                        <img src="images/next-icon.svg" alt="next-icon">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <a href="https://shivakant1021.github.io/testy-flavors/" target="_blank" class="service">
-                        <div class="service-img">
-                            <img src="images/Website-design.webp" alt="Website Design" class="img-fluid">
-                        </div>
-                        <h5>Website Development</h5>
-                        <img src="images/next-icon.svg" alt="next-icon">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <a href="https://www.globalindiaexp.in/" target="_blank" class="service">
-                        <div class="service-img">
-                            <img src="images/Mobile-application.webp" alt="Mobile Application" class="img-fluid">
-                        </div>
-                        <h5>Mobile App Development</h5>
-                        <img src="images/next-icon.svg" alt="next-icon">
-                    </a>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
-                    <a href="https://syncsoftsolution.com/" target="_blank" class="service">
+                    <a href="#" target="_blank" class="service">
                         <div class="service-img">
                             <img src="images/Search-Engine-Optimization.webp" alt="Search Engine Optimization"
                                 class="img-fluid">
@@ -1300,7 +1274,95 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
+    <div class="container">
+    <h2>Explore Popular International Destinations from India</h2>
+    <p>Pick a destination to understand typical courier charges, allowed items and delivery expectations before you ship.</p>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>🇺🇸 USA</h3>
+            <p class="subtitle">Students · Family · NRI shipments</p>
+            <div class="tags">
+                <span>1–5 kg documents</span>
+                <span>10–25 kg boxes</span>
+                <span>Metro & non-metro delivery</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🇬🇧 United Kingdom</h3>
+            <p class="subtitle">Documents · gifts · food items*</p>
+            <div class="tags">
+                <span>University documents</span>
+                <span>Dry snacks & sweets*</span>
+                <span>City & town deliveries</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🇨🇦 Canada</h3>
+            <p class="subtitle">PR families · students</p>
+            <div class="tags">
+                <span>Winter clothes & bedding</span>
+                <span>Excess baggage</span>
+                <span>Major provinces covered</span>
+            </div>
+        </div>
+
+        <div class="card highlight">
+            <h3>🇦🇺 Australia</h3>
+            <p class="subtitle">Students · working professionals</p>
+            <div class="tags">
+                <span>Long-stay luggage</span>
+                <span>Study material & books</span>
+                <span>City & regional areas</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🇳🇿 New Zealand</h3>
+            <p class="subtitle">Students · families abroad</p>
+            <div class="tags">
+                <span>15–30 kg cartons</span>
+                <span>Personal belongings</span>
+                <span>Customs-focused packing</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🇦🇪 UAE</h3>
+            <p class="subtitle">Job seekers · residents · businesses</p>
+            <div class="tags">
+                <span>Documents & passports</span>
+                <span>Gifts & garments</span>
+                <span>Dubai, Abu Dhabi & more</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🇩🇪 Germany</h3>
+            <p class="subtitle">Students · engineers · SMEs</p>
+            <div class="tags">
+                <span>Machine parts & samples</span>
+                <span>Study documents</span>
+                <span>EU customs guidance</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>🇫🇷 France</h3>
+            <p class="subtitle">Personal parcels · gifts</p>
+            <div class="tags">
+                <span>1–10 kg shipments</span>
+                <span>Family courier</span>
+                <span>EU duty awareness</span>
+            </div>
+        </div>
+
+    </div>
+</div>
 
     <!--    FAQ SECTion         -->
 
